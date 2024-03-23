@@ -1,0 +1,166 @@
+@media screen and (max-width:1200px) {
+    .header{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .content-cont{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .book-cont img{
+        max-width: 80px;
+        left: 5px;
+    }
+
+    .book-cont div{
+        margin-left: 65px;
+    }
+
+    .main-title{
+        font-size: 16px;
+        width: 250px;
+    }
+
+    .main-title::before{
+        width: 245px;
+    }
+
+    .book-cont span{
+        font-size: 22px;
+    }
+
+    .book-cont p{
+        font-size: 18px;
+    }
+
+    .search-cont input{
+        width: 100%;
+        height: 36px;
+    }
+
+    .search-cont button{
+        padding: 4px 8px
+    }
+
+    .menu-cont{
+        margin-left: 0px;
+        margin-bottom: 30px;
+        width: 90%;
+    }
+
+    body::before {
+        top: -200px;
+        left: -150px;
+        width: 300px;
+        height: 300px;
+    }
+
+    body::after {
+        bottom: -500px;
+        right: -200px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    body::before {
+        top: -50px;
+        left: -50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    body::after {
+        bottom: 50%;
+        right: 0px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .book-cont div{
+        margin-left: 70px;
+    }
+
+    .menu-cont{
+        max-width: 500px;
+    }
+
+    .video-cont{
+        max-width: 500px;
+    }
+
+    .search-cont{
+        display: none;
+    }
+
+    .search-cont-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 20px;
+        margin-bottom: 40px;
+        padding-top: 20px;
+    }
+
+    .search-cont-mobile label{
+        display: flex;
+    }
+
+    .search-cont-mobile input{
+        width: 200px;
+        height: 33px;
+        border-radius: 15px;
+        border: none;
+        margin-right: 10px;
+        padding-left: 20px;
+        filter: drop-shadow(-1px 7px 6px #000000);
+    }
+
+    .search-cont-mobile button{
+        background-color: rgb(255, 102, 0);
+        border: none;
+        border-radius: 15px;
+        padding: 6px 15px;
+        cursor: pointer;
+        filter: drop-shadow(-1px 7px 6px #000000);
+    }
+}
+
+@media screen and (max-width:540px) {
+    .book-cont img{
+        position: relative;
+        margin-bottom: 30px;
+    }
+    
+    .header{
+        justify-content: center;
+    }
+
+    .lesson-cont h2{
+        font-size: 28px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    body::after {
+        bottom: 40%;
+        right: 0px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .video-cont{
+        max-width: 300px;
+    }
+}

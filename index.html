@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ukr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/adapt.css">
+</head>
+<body>
+    <header class="header">
+        <div class="book-cont"> 
+            <img src="./images/book.jpg" alt="book image">
+            <div>
+                <span>Математика</span>
+                <p>А.М. Заїка</p>
+            </div>
+        </div>
+        <div class="main-title">
+            <span>Календарне планування</span>
+        </div>
+        <div class="search-cont">
+            <form>
+                <label>
+                    <input placeholder="Пошук" type="text">
+                    <button><svg class="search-icon"><use href="/images/sprite.svg#icon-search"></use></svg></button>
+                </label>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="search-cont-mobile">
+                <form>
+                    <label>
+                        <input placeholder="Пошук" type="text">
+                        <button><svg class="search-icon">
+                                <use href="/images/sprite.svg#icon-search"></use>
+                            </svg></button>
+                    </label>
+                </form>
+            </div>
+            <div class="lesson-cont">
+                <span class="date">22 березня</span>
+                <h1>Класна робота</h1>
+                <h2>Тема: <span class="lesson-theme">Об'єкти навколишнього світу. <br> Ознаки та властивості предметів</span></h2>
+            </div>
+            <div class="container content-cont">
+                <video class="video-cont" controls>
+                    <source src="./video/video.mp4" type="video/mp4" /></video>
+                <div class="menu-cont">
+                    <div class="controls-cont">
+                        <button class="active">На уроці</button>
+                        <button>Тести</button>
+                        <button>План уроку</button>
+                    </div>
+                    <div class="list-cont">
+                        <span class="section-name"><span style="font-size: 14px;">&#9660;</span>На уроці</span>
+                        <ul class="video-list">
+                            <li class="list-elem">
+                                <svg class="video-icon"><use href="./images/sprite.svg#video-icon"></use></svg>
+                                <div class="list-elem__cont">
+                                    <button class="menu-link">
+                                        <span class="list-elem__title">Все навкруги - математика</span>
+                                        <span class="list-elem__desc">Математика та її значення в житті людини</span>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="list-elem">
+                                <svg class="video-icon">
+                                    <use href="./images/sprite.svg#video-icon"></use>
+                                </svg>
+                                <div class="list-elem__cont">
+                                    <button class="menu-link">
+                                        <span class="list-elem__title">Вправа "Ознаки і властивості об'єктів"</span>
+                                        <span class="list-elem__desc">Об'єкти: сніг, мед. Завдання: назвати ознаки поданих об'єктів.</span>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="list-elem">
+                                <svg class="video-icon">
+                                    <use href="./images/sprite.svg#video-icon"></use>
+                                </svg>
+                                <div class="list-elem__cont">
+                                    <button class="menu-link">
+                                        <span class="list-elem__title">Вправа "Розбиття групи об'єктів на підгрупи за спільною ознакою"</span>
+                                        <span class="list-elem__desc">Завдання: поділити об'єкти(фрукти, транспорт, квіти) на групи за спільними ознаками. </span>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="list-elem">
+                                <svg class="video-icon">
+                                    <use href="./images/sprite.svg#video-icon"></use>
+                                </svg>
+                                <div class="list-elem__cont">
+                                    <button class="menu-link">
+                                        <span class="list-elem__title">Вправа "Об'єднання об'єктів у групи за спільною ознакою"</span>
+                                        <span class="list-elem__desc">Визначення спільних ознак об'єктів. Завдання. Доповнити групу іншими о...</span>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
